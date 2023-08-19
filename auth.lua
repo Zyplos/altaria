@@ -1,4 +1,4 @@
-os.loadAPI("jsonapi.lua")
+os.loadAPI("/altaria/jsonapi.lua")
 
 function Login(handle, password)
   local request = http.post("https://bsky.social/xrpc/com.atproto.server.createSession",

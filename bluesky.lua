@@ -1,4 +1,4 @@
-os.loadAPI("jsonapi.lua")
+os.loadAPI("/altaria/jsonapi.lua")
 local auth = require("auth")
 
 function GetTimeline(handle, password)

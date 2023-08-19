@@ -1,5 +1,4 @@
 local basalt = require("basalt")
-os.loadAPI("jsonapi.lua")
 
 -- import sub screens
 local SignInScreen = require("screens/signin_screen")
